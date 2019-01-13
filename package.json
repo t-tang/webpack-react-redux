@@ -1,0 +1,37 @@
+{
+  "name": "webpack-react-redux-project",
+  "version": "1.0.0",
+  "description": "webpack-react-redux project",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "webpack --mode development",
+    "build": "webpack --mode production"
+  },
+  "author": "t-tang",
+  "license": "ISC",
+  "devDependencies": {
+    "babel-core": "^6.26.3",
+    "babel-loader": "^7.1.5",
+    "babel-plugin-transform-class-properties": "^6.24.1",
+    "babel-plugin-transform-object-rest-spread": "^6.26.0",
+    "babel-preset-env": "^1.7.0",
+    "babel-preset-react": "^6.24.1",
+    "css-base": "^1.0.0",
+    "css-loader": "^1.0.1",
+    "html-webpack-plugin": "^3.2.0",
+    "style-loader": "^0.23.1",
+    "webpack": "^4.19.1",
+    "webpack-cli": "^3.1.1"
+  },
+  "dependencies": {
+    "bootstrap": "^4.2.1",
+    "express": "^4.16.4",
+    "express-router": "0.0.1",
+    "react": "^16.5.2",
+    "react-dom": "^16.5.2",
+    "react-redux": "^6.0.0",
+    "react-router-dom": "^4.3.1",
+    "reactstrap": "^7.0.2",
+    "redux": "^4.0.1"
+  }
+}
